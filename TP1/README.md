@@ -49,11 +49,11 @@ Il s'agit d'une méthode de segmentation qui consiste à tester pour chaque pixe
 
 ###### Quels sont les seuils min et max qui optimisent la segmentation ?
 Les valeurs qui optimisent la segmentation sont un seuil min = 100 et un seuil max = 250
-![alt text]([seuillage_manuel.jpg](https://github.com/KeimaDT/Vision_par_ordinateur/blob/main/TP1/pythonProject/screen/seuillage_manuel.jpg))
+![seuillage_manuel.jpg](https://github.com/KeimaDT/Vision_par_ordinateur/blob/main/TP1/pythonProject/screen/seuillage_manuel.jpg)
 
 ###### Quelles sont les seuils optimaux trouvés par ce seuillage pour chacun des canaux hsv de l’images ?
 Les seuils optimaux sont déterminés automatiquement grâce à la méthode d'Otsu, qui identifie le seuil idéal pour chaque canal de l'image.
-![alt text]([threshold_otsu_combined.jpg](https://github.com/KeimaDT/Vision_par_ordinateur/blob/main/TP1/pythonProject/screen/threshold_otsu_combined.jpg))
+![threshold_otsu_combined.jpg](https://github.com/KeimaDT/Vision_par_ordinateur/blob/main/TP1/pythonProject/screen/threshold_otsu_combined.jpg)
 
 ###### Comparer les deux techniques de seuillage utilisées
 Seuillage manuel : Facile et rapide, mais requiert de définir manuellement les seuils optimaux, ce qui peut s'avérer difficile.
@@ -90,6 +90,6 @@ Sobel : Efficace mais sensible au bruit.
 Canny : Plus précis et robuste, particulièrement adapté pour détecter les contours fins et détaillés, comme ceux du chat blanc.
 
 ##### 3. Transformation par point
-![alt text]([result_transformations.png](https://github.com/KeimaDT/Vision_par_ordinateur/blob/main/TP1/pythonProject/screen/result_transformations.png))
+![result_transformations.png](https://github.com/KeimaDT/Vision_par_ordinateur/blob/main/TP1/pythonProject/screen/result_transformations.png)
 
-![alt text]([transformations_position.png](https://github.com/KeimaDT/Vision_par_ordinateur/blob/main/TP1/pythonProject/screen/transformations_position.png))
+![transformations_position.png](https://github.com/KeimaDT/Vision_par_ordinateur/blob/main/TP1/pythonProject/screen/transformations_position.png)
